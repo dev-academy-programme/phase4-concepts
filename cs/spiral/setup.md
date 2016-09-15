@@ -10,7 +10,7 @@ Right click `SpiralTests` in the solution explorer. Choose _Add_, then _Referenc
 
 We need to add the [xUnit](https://xunit.github.io/) package to do our testing with. Right click on the `SpiralTests` project and choose _Manage NuGet packages_. Click _Browse_ on the left side, then type 'xunit' in the search box. Select the xUnit package and click _Install_. While you're at it, do the same thing for _xunit.runner.visualstudio_.
 
-So, let's write our first test! In `SpiralTests`, rename `Class1.cs` to `ProgramTests`. If it offers to rename other things for you, choose _Yes_. Inside 
+So, let's write our first test! In `SpiralTests`, rename `Class1.cs` to `ProgramTests`. If it offers to rename other things for you, choose _Yes_. Make `ProgramTests` look like this:
 
 ```cs
 using Xunit;
